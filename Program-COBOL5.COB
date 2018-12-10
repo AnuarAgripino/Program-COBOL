@@ -107,7 +107,7 @@
                 05 FILLER              PIC X VALUE '/'.
                 05 CAB-ANO             PIC 9(04).
            03 FILLER                   PIC X(01) VALUE '*'.
-
+      *
        01  CAB-02.
            03 FILLER                   PIC X(53) VALUE
               '*    CLIENTES COM SALDO MAIOR QUE R$ 100.000,00    *'.
@@ -321,7 +321,7 @@
            INITIALIZE REG-SAIDA
       *
            MOVE REG-ENTRADA TO RG-ENT
-
+      *
            MOVE ENT-CDO-CTA
              TO DET-CDO-CTA
            MOVE ENT-TIP-CTA
